@@ -1,0 +1,15 @@
+.ItemsContainer {
+  background-color: gainsboro;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Item {
+  border-radius: 0.2rem;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1rem;
+  margin-bottom: 1rem;
+}

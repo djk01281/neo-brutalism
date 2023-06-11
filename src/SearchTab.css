@@ -1,0 +1,59 @@
+.SearchTab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.SearchBar {
+  /* background-color: aliceblue; */
+  width: 90%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.SearchDescription {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 1rem;
+}
+.highlight-yellow {
+  color: yellow;
+}
+
+.SearchInput {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  border-radius: 0.1rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  color: black;
+  text-align: left;
+}
+
+.SearchButton {
+  height: 100%;
+  font-size: 1rem;
+  border-radius: 0%;
+  border-radius: 0.1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  box-shadow: none;
+  background-color: pink;
+  transition: 0.3s;
+}
+
+.SearchButton:hover {
+  box-shadow: 0.2rem 0.2rem 0 0 grey;
+  transform: translate(-0.2rem, -0.2rem);
+}

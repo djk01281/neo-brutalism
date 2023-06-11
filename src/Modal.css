@@ -1,0 +1,58 @@
+.Modal {
+  width: 80vw;
+  height: 50vh;
+  background-color: white;
+  z-index: 100;
+  border-radius: 0.2rem;
+  border: 0.1rem solid black;
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+}
+
+.ImageBox {
+  width: 100%;
+  height: 80%;
+  /* background-color: aqua; */
+  border-bottom: 0.1rem solid black;
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr;
+
+  justify-content: space-around;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  object-fit: contain;
+}
+
+.ThumbnailContainer {
+  height: 8rem;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  object-fit: contain;
+}
+.Thumbnail {
+  height: 100%;
+
+  object-fit: contain;
+}
+.SelectBox {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+.SelectButton {
+  padding: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0 0 black;
+  border: 0.1rem solid black;
+  background-color: #ffc900;
+}
